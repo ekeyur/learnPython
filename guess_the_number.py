@@ -16,13 +16,11 @@ while (play_again == "Y"):
         elif int(guess)<secret_number:
             print "%d is too low" % int(guess)
             print "You have %d guesses left." % count
-
         else:
             int(guess)>secret_number
             print "%d is too high" % int(guess)
             print "You have %d guesses left." % count
-
     count = 5
     play_again = raw_input("Do you want to play again? (Y or N)")
-    
+
 print "Good Bye!"
